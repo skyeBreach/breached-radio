@@ -1,6 +1,9 @@
 # Development files
 **/.dev
 
+# Build Files
+**/.build
+
 # VSCode files
 .DS_Store
 .vscode
