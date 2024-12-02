@@ -3,18 +3,10 @@
 ## Notes To Add To Knowledge Base
 ## "-gt" means greater than
 ## "shift [n]" removes n positional command line parameters from the start 
-
-# TODO 
-## Basic Flag Parser
-## --Help flag
-## Bun commands
-    ## Install
-    ## Link
-## Run JS scripts
-
 #----------------------------------------------------------------------------------------------------------------------#
-# Command-Line Flags
+# Logging/Console Message Vars
 
+## Console Message Color Ansi Codes
 CYAN='\033[1;36m'
 NO_COLOR='\033[0m'
 
@@ -23,9 +15,12 @@ usage() {
     echo "Usage: $0 [OPTIONS]"
     echo "Options:"
     echo " -h, --help      Display this help message"
-    echo " -v, --verbose   Enable verbose mode"
+    echo " -v, --silent    Enable silent mode, this removes all console logs"
     echo " -d, --dry-run   Run this command without performing any actions"
 }
+
+#----------------------------------------------------------------------------------------------------------------------#
+# Command-Line Flags
 
 ## Store boolean variables for the command line flags
 args=
