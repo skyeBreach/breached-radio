@@ -1,0 +1,3 @@
+[submodule "deps/ts3-plugin-sdk"]
+	path = deps/ts3-plugin-sdk
+	url = https://github.com/teamspeak/ts3client-pluginsdk.git
