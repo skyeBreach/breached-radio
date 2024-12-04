@@ -1,9 +1,10 @@
+// TODO: Fill out your copyright notice and run the 'copyright-update' script
+
 import { $ } from "bun";
 import chalk from 'chalk';
 import Package from "../package.json";
 import { unlinkSync } from "node:fs";
-import { breachedZod } from "../utils/zod";
-import {MetaFile } from "../utils/zod";
+import { breachedZod, MetaFile } from "./utils/zod";
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 // Args and Flag Parsing
