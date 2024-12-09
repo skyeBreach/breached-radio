@@ -2,6 +2,7 @@
 [submodule "ts3client-pluginsdk"]
 	path = libs/ts3client-pluginsdk
 	url = https://github.com/teamspeak/ts3client-pluginsdk.git
+	branch = 1fbd9b1
 [submodule "breached-teamspeak"]
 	path = libs/breached-teamspeak
 	url = https://github.com/skyeBreach/breached-teamspeak.git
